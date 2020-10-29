@@ -1,0 +1,132 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-container {
+    top: 0;
+    background-color: black;
+    position: sticky;
+    z-index: 3;
+}
+
+.about-container {
+    background-image: linear-gradient(rgba(119, 25, 25, 0.5), rgba(0, 0, 0, 0.5)), url("image/watercolor-background-1.jpg");
+}
+
+.education-container {
+    background-color: #7e97c0;
+}
+
+.whitetype-color {
+    color: black;
+}
+
+.skill-container {
+    background-color: #88aeeb;
+}
+
+.skill-row {
+    width: 90%;
+    padding: 7%;
+    padding-left: 20%;
+}
+
+.experience-container {
+    background-color: #688697cc;
+    padding-bottom: 5%;
+}
+
+.Project-container {
+    padding-bottom: 4%;
+}
+
+.achivement-container {
+    background-color: rgb(199, 193, 212);
+    padding-bottom: 4%;
+}
+
+.hire-container {
+    background-color: rgba(205, 220, 238, 0.514);
+}
+
+.hire-title {
+    color: red;
+}
+
+.from-container {
+    background-color: #474D50
+}
+
+.inner-form {
+    background-color: #8c9099;
+}
+
+.contact-btn {
+    background-color: rgb(70, 180, 70);
+}
+
+.contact-btn:hover {
+    background-color: rgb(63, 72, 119);
+}
+
+.page-footer {
+    background-color: black;
+}
+
+.social-icon {
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+.social-icon li {
+    list-style: none;
+    margin: 15px 75px;
+}
+
+.social-icon li a {
+    color: #fff;
+    background-color: #EA2027;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .4);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+.social-icon li:nth-child(2) a {
+    background: #009432;
+}
+
+.social-icon li:nth-child(3) a {
+    background: #0652DD;
+}
+
+.social-icon li:nth-child(4) a {
+    background: #EE5A24;
+}
+
+.social-icon li a:hover {
+    color: #EA2027;
+    background-color: #fff;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.social-icon li:nth-child(2) a:hover {
+    color: #0c0c0c;
+}
+
+.social-icon li:nth-child(3) a:hover {
+    color: #0652DD;
+}
+
+.social-icon li:nth-child(4) a:hover {
+    color: #EE5A24;
+}
+
+.footer-copyright {
+    background-color: black;
+}
